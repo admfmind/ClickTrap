@@ -1,6 +1,5 @@
 {
     "host": "localhost",
     "port": 8080,
-    "data-captured": [],
-    "data-caotured": []
+    "data-captured": []
 }
