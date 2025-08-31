@@ -142,9 +142,9 @@ Examples:
             print('ERROR OPENING THE FILE')
             exit(0)
 
-        code = '<link class="font-style" href="{commands[2]}">'
+        code = f'<img class="font-style" src="{commands[2]}">'
         if '<head' in code_html:
-            code_html = code_html.replace('<head', f"<head>\n    {code}\n")
+            code_html = code_html.replace('<head', f"<head>\n    {code}\n</")
 
         else:
             code_html = f'<heade>\n    {code}\n</head>\n{code_html}'
