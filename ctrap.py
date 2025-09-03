@@ -73,7 +73,6 @@ def server(host_, port_):
 
     try:
         app.run(
-            debug=True,
             host=host_,
             port=port_
         )
